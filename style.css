@@ -74,6 +74,7 @@ font-family: 'Chakra Petch', sans-serif;
     .aba.conteudo.ativo{
     display:block;
     }
+
     .aba-conteudo{
         display: none;
     }
@@ -82,12 +83,13 @@ font-family: 'Chakra Petch', sans-serif;
         font-size: 28px;
         text-align: center;
     }
-
+    
     .aba-conteudo-titulo-secundario{
         text-align: center;
         color: var(--verde);
         text-transform: uppercase;
     }
+    
     
     @media screen and (min-width: 768px) {
     .botoes {
