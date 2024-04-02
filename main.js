@@ -29,6 +29,7 @@ function atualizaCronometro(){
 }
 
 atualizaCronometro();
+setInterval(atualizaCronometro(), 1000);
 
 for (let i = 0; i < contadores.length; i++) {
     contadores[i].textContent = calculaTempo(tempos[i]);
