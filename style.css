@@ -36,7 +36,7 @@ font-family: 'Chakra Petch', sans-serif;
     color: var(--verde);
 }
 
-.botao {
+.botao{
     font-family: "Crakra Petch", sans-serif;
     background-color: var(--botao-inativo);
     color: var(--branco);
@@ -50,6 +50,7 @@ font-family: 'Chakra Petch', sans-serif;
     border-left: 2px solid var(--botao-ativo);
     border-right: 2px solid var(--botao-ativo);
     border-top: none;
+
 }
 
 .botao:first-child {
