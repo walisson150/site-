@@ -21,18 +21,6 @@
   </section>
 </body>
 </html>
- const botoes = document.querySelectorAll(".botao");
-
-for(let i=0;i <botoes.length;i++){
-    botoes[i].onclick = function(){
-        
-        for(let j=0;j<botoes.length;j++){
-            botoes[j].classList.remove("ativo");
-        }
-        botoes[i].classList.add("ativo");
-    }
-    console.log();
-}
 <div class="conteudo">
     <div class="botoes">
         <button class="botao ativo">Cursos na Alura</button>
